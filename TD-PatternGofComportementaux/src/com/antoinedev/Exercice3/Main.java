@@ -21,6 +21,14 @@ public class Main {
         System.out.println("Annulation du scenario");
         s.annulation();
         System.out.println(r.toString());
+
+
+        /**
+         * Question 3.3 :
+         * Ce type de pattern nous permet de respecter le principe open/close.
+         * Et d'ajouter absolument n'importe quel type de commande simplement.
+         */
+
     }
 
 }
